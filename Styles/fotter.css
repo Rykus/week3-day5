@@ -1,0 +1,28 @@
+.fot{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;}
+
+#textfot{
+    font-size: 15px;
+}
+
+.fottertxt{
+
+    text-decoration: none;
+    margin-right: 5vh;
+    margin-left: 5vh;
+    color:  #485fc7;
+    font-size: 17px;
+    font-weight: 500;
+    
+    }
+
+#marg{
+    margin-top: 20px;
+}
+
+#imgfot{
+    margin-bottom: 10px;
+}

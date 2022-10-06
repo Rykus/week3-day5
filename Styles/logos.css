@@ -1,0 +1,8 @@
+.alinglogos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    filter: grayscale(100%);
+    margin-top: 15vh;
+    background-color: transparent;
+    }

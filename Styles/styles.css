@@ -1,0 +1,21 @@
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import "./navbar.css";
+@import "./button.css";
+@import "./herocard.css";
+@import "./logos.css";
+@import "./Recentprojects.css";
+@import "./fondoE.css";
+@import "./Service.css";
+@import "./question.css";
+@import "./fotter.css";
+@import "./contact.css";
+@import "./projectstyle.css";
+
+body{
+    margin: 0px;
+    height: 100%;
+    padding: 10px;
+    font-size: 10px;
+    
+}

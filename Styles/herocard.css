@@ -1,0 +1,47 @@
+.herocard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    
+    
+}
+.heading1{
+    font-size: 5em;
+    font-weight: 10000;
+}
+.bodyIntroMedium{
+    font-size: 2.028em; 
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.herodiv{
+    max-width: 45%;
+}
+.herodivimg{
+    position:relative;
+    }
+#heroimg{
+   width: 100%;
+}
+#heroimg1{
+    position:absolute;
+    left:0;
+    top: 0;
+    width: 300px;
+    }
+#heroimg2{
+    position:absolute;
+    bottom: 0;
+    right:0;
+    width: 300px;
+    }
+#center{
+    display: flex;
+    align-items: center;
+}
+#Graylink{
+    margin-left: 3em;
+    font-size: 1.8em;
+
+}

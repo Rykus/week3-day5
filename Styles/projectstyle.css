@@ -1,0 +1,28 @@
+#maintitle{
+font:bolder ;
+font-size: 60px;
+}
+.flextittle{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+} 
+#flexsubttile{
+font-size: 20px;
+color: #6b708d;
+font-weight: 500;
+}
+#completed{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+}
+#date{
+    font-size: 20px;
+    color: #6b708d;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+
+

@@ -1,0 +1,46 @@
+#Tittlebox{
+    color: #292e47;
+    font-size: 40px;
+    margin: 80px;
+}
+.flexb{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+       
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+        
+}
+.imgcirc{
+    padding: 25px;
+    width: 80px;
+    height: 80px;
+    border-radius: 45%;
+    background-color: #ecf7ff;
+    margin-left: 20px;
+}
+#boxtittle{
+    margin: 30px 30px 20px;
+    color: #292e47;
+    font-size: 20px;
+    line-height: 115%;
+    font-weight: 500
+}
+#boxparagraf{
+    margin: 30px 30px 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 40
+}
+#boxlink{
+    margin: 30px 30px 20px;
+    margin-top: 0px;
+    font-size: 17px;
+    font-weight: bold;
+}
