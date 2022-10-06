@@ -20,3 +20,16 @@ body{
     margin-top: 20px;
 }
 
+@media (max-width:760px) {
+    .orden{
+        flex-direction: column;
+    }
+    #memo1,#memo2,#memo3,#memo4{
+        display: none;
+    }
+}
+@media (max-width:450px){
+.boxing{
+    width: 80%;
+}
+}
