@@ -1,16 +1,20 @@
 #maintitle{
-font:bolder ;
-font-size: 60px;
+font:bold ;
+font-size: 30px;
+margin-top:  20px;
 }
 .flextittle{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+align-items: center;
+padding: 20px;
 } 
 #flexsubttile{
-font-size: 20px;
+font-size: 15px;
 color: #6b708d;
 font-weight: 500;
+max-width: 650px;
 }
 #completed{
     font-size: 20px;
@@ -22,6 +26,15 @@ font-weight: 500;
     color: #6b708d;
     font-weight: 500;
     margin-left: 10px;
+}
+#lore{
+    font-size: 15px;
+    margin-top: 15px;
+    }
+#imgproject{
+    
+    width: 100%;
+    height: 500px;
 }
 
 

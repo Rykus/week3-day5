@@ -8,33 +8,48 @@
     <link rel="stylesheet" href="./Styles/styles.css">
 </head>
 <body>
-    <header>
-        <div class="header">
-            <div class=>
-              <a class=>
-                <image src=./Images/logos/circle.svg width="60" height="20">
-              </a>
-            </div>
-            <nav class="navTop">
-                <a href="" aria-current="" class="textinNav blue">Home</a>
-                <a href="" class="textinNav">Projects</a>
-                <a href="" class="textinNav">Services</a>
+    <div class="container"> 
+        <header>
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <div class="navbar-item">
+                        <a class=>
+                          <image src=./Images/logos/circle.svg width="60" height="20">
+                        </a>
+                    </div>
+                    
+                    <div class="navbar-burger has-dropdown"  aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </div>
+        
+                </div>
+                <div id="tab" class="navbar-menu active">
+                    <div id="traumateam" class="navbar-start navTop">
+                      <a class="navbar-item">
+                        Home
+                      </a>
+                      <a class="navbar-item">
+                        Projects
+                      </a>
+                      <a class="navbar-item">
+                        Services
+                      </a>
+                    </div>
+                </div>             
+                    <div class="navbar-end">
+                      <div class="navbar-item">
+                        <div>
+                            <a href="/contact-us.html" class="button is-link blueButton" >Contact Us</a>
+                        </div>
+                      </div>
+                    </div>
+                    
+                
             </nav>
-            <div>
-                <a href="/contact-us.html" class="button is-link blueButton" >Contact Us</a>
-            </div>
-            <!-- <button id="Hamburguesa mobileShow">
-                <nav id="sidebar mobileShow">
-                    <ul>
-                        <li><a href="./Index.html">Home</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">Services</a></li>
-                    </ul>
-                </nav>
-            </button>     -->
-        </div>
-    </header> 
-    <div class="container">  
+            </header> 
+     
          <h1 id="maintitle">Simplify</h1>
          <div class=flextittle>
             <h3 id="flexsubttile">UI Design & App Development</h3>
@@ -43,15 +58,15 @@
                 <article id="date">2/5/2022</article>
             </div>
          </div>
-         <img src="" alt="">
-         <span id="art1"></span>
+         <img src="./Images/projects-section/1.jpg" alt="" id="imgproject">
+         <h5 id="lore"></h5>
     
     <div class="projects">
         <h2 id="recent">Recent Projects</h2>
         <div class="orden">
-            <div class=""><img src="./Images/projects-section/1.jpg" alt="" class="ProjectImages"><h4 class="Ptitt">Simplify</h4><h3 class="Pstit">UI Design & App Development</h3><a href="" id="Plink">Learn More</a></div>
-            <div class=""><img src="./Images/projects-section/2.jpg" alt="" class="ProjectImages"><h4 class="Ptitt">Dashcoin</h4><h3 class="Pstit">User Experience Design</h3><a href="" id="Plink">Learn More</a></div>
-            <div class=""><img src="./Images/projects-section/3.jpg" alt="" class="ProjectImages"><h4 class="Ptitt">Vectorify</h4><h3 class="Pstit">UI Design</h3><a href="" id="Plink">Learn More</a></div>
+            <div class=""><img src="./Images/projects-section/1.jpg" alt="" class="ProjectImages"><h4 class="Ptitt art1">Simplify</h4><h3 class="Pstit body1">UI Design & App Development</h3><a href="" id="Plink">Learn More</a></div>
+            <div class=""><img src="./Images/projects-section/2.jpg" alt="" class="ProjectImages"><h4 class="Ptitt art2">Dashcoin</h4><h3 class="Pstit body2" >User Experience Design</h3><a href="" id="Plink">Learn More</a></div>
+            <div class=""><img src="./Images/projects-section/3.jpg" alt="" class="ProjectImages"><h4 class="Ptitt art3">Vectorify</h4><h3 class="Pstit body3" id="">UI Design</h3><a href="" id="Plink">Learn More</a></div>
         </div>
     </div>
     <div class="email" >

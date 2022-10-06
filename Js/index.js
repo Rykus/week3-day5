@@ -22,16 +22,12 @@ console.log(lore)
 console.log(post)
 
 
-async function print() {
-    await almacenarlore()
-document.querySelector(`#lore`).innerHTML =`${lore[0]}`
-}
+
 
 
 async function print1() {
     await almacenarposts()
-           document.querySelector(`#maintitle`).innerHTML =`${post[0].title}`
-           document.querySelector(`#flexsubttile`).innerHTML =`${post[0].body}`
+
     for(let i = 0; i <= 2; i++){
         document.querySelector(`.art${i+1}`).innerHTML =`${post[i].title}`    
     }
@@ -39,8 +35,12 @@ async function print1() {
         document.querySelector(`.body${i+1}`).innerHTML =`${post[i].body}`
     }    
 }
-    print()
+    
     print1()
+
+
+
+
 
     document.addEventListener('DOMContentLoaded', () => {
 
@@ -59,7 +59,6 @@ async function print1() {
             document.querySelector('#tab').classList.toggle('activebonito')
             document.querySelector('#traumateam').classList.toggle('navTop')
             document.querySelector('#traumateam').classList.toggle('navTop2')
-            
           });
         });
       
