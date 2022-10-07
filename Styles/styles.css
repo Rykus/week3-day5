@@ -27,9 +27,73 @@ body{
     #memo1,#memo2,#memo3,#memo4{
         display: none;
     }
+    #heroimg1,#heroimg2{
+        display:none;
+    }
+    .alinglogos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items:center;
+        justify-content:space-between;
+        gap: 25px;
+    }
+    .box{
+        width: 70%
+    }
+    .flexb{
+        flex-direction: column;
+    }
+    .inputmail{
+        width: 150px;
+        height: 80px;
+        left:0%;
+        font-size: 10px
+    }
+    #letterimg{
+      display:none
+    }
+    .tmbtt{
+        left:50%;
+    }
+    .fottertxt{
+        font-size:10px
+    }
+    #textfot{
+        font-size:10px
+    }
+    #formq{
+        font-size: 20px;
+    }
+    .maintitle{
+        font-size:20px;
+    }
+    .flexsubttile{
+        font-size: 10px;
+    }
+    #completed{
+        font-size: 10px;
+    }
+    #date{
+        font-size: 10px;
+    }
 }
 @media (max-width:450px){
-.boxing{
-    width: 80%;
+   .flexchange{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+.flexchanges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+#marg{
+    margin-top:00px;
 }
 }
