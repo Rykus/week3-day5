@@ -11,6 +11,7 @@
 @import "./fotter.css";
 @import "./contact.css";
 @import "./projectstyle.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
     margin: 0px;
@@ -18,7 +19,8 @@ body{
     padding: 10px;
     font-size: 10px;
     margin-top: 20px;
-}
+    font-family: 'Roboto', sans-serif;
+    }
 
 @media (max-width:760px) {
     .orden{
