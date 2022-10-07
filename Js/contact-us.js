@@ -4,10 +4,10 @@ form.onsubmit = function (e){
     let fname = document.getElementById("fname").value;
     let email = document.getElementById("email").value
     let phone = document.getElementById("phone").value
-    let text = document.getElementById("text").value;
+    let text = document.getElementById("messagebox").value;
     console.log(fname, email, phone, text)
 }
-console.log(fname, email, phone, text)
+
 
 document.addEventListener('DOMContentLoaded', () => {
 
