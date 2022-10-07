@@ -18,8 +18,6 @@ const almacenarlore = async() =>{
     
 }
 
-console.log(lore)
-console.log(post)
 
 
 async function print() {
